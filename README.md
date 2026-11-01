@@ -26,12 +26,11 @@ Hush is built with Tauri, CodeMirror 6 and a Rust core.
 Get the latest build from the
 [releases page](https://github.com/adrianderstroff/hush-ide-releases/releases/latest):
 
-| System               | File                                                    |
-| -------------------- | ------------------------------------------------------- |
-| Windows 10/11, x64   | `…_x64-setup.exe` (or the `.msi`)                       |
-| macOS, Apple silicon | `…_aarch64.dmg`                                         |
-| macOS, Intel         | `…_x64.dmg`                                             |
-| Linux, x64           | `.AppImage`, `.deb` (Debian, Ubuntu) or `.rpm` (Fedora) |
+| System                          | File                                                    |
+| ------------------------------- | ------------------------------------------------------- |
+| Windows 10/11, x64              | `…_x64-setup.exe` (or the `.msi`)                       |
+| macOS (Apple silicon and Intel) | `…_universal.dmg`                                       |
+| Linux, x64                      | `.AppImage`, `.deb` (Debian, Ubuntu) or `.rpm` (Fedora) |
 
 The builds are not signed yet, so the first start asks once:
 
