@@ -12,10 +12,11 @@
 
 ## Why Hush
 
-- **Code is the centrepiece.** No side panels or tab rows, and very little UI text.
-  The file fills the window.
-- **Tools appear on demand.** Search, Git, the terminal and the AI open over the code
-  when you need them. Escape puts them away.
+- **Code is the centrepiece.** No file tree, no tab rows and very little UI text. The
+  file fills the window; a panel such as the AI discussion or the terminal is there only
+  while you use it.
+- **Tools appear on demand.** Search, Git, the terminal and the AI open over the code,
+  or beside it on wide windows, when you need them. Escape puts them away.
 - **Understand the code, not just edit it.** Lenses and the AI explain structure,
   callers and flow right beside the lines they talk about.
 
@@ -114,27 +115,30 @@ running while it is hidden.
 ## Navigation
 
 Moving between files is keyboard-first and uses one chord, **Ctrl+Alt** (**⌘⌥** on
-macOS). In the default style, **Next to**, holding the chord shows the neighbouring
-files around the current one: the folder to the left and right, the files that use
-this one above, and the files it imports below. An arrow key moves you there.
+macOS). Tap it to open the navigation style, or press it with an arrow to open it on
+that step; inside, plain arrows move, **Enter** opens and **Esc** takes you back to
+where you were. In the default style, **Next to**, the page steps back and shows the
+neighbouring files around the current one: the folder to the left and right, the
+files that use this one above, and the files it imports below. An arrow key moves you
+there.
 
 ![Next to: tracker.ts in the middle, with its folder neighbours left and right, a file that uses it above and one it imports below](.github/images/nav-next-to.png)
 
 Pick the style that suits you in settings (`Navigation style`):
 
-| Style   | How you use it | What you see                                                                |
-| ------- | -------------- | --------------------------------------------------------------------------- |
-| Next to | hold Ctrl+Alt  | neighbouring files around the current one                                   |
-| Trails  | hold Ctrl+Alt  | a timeline of the places you visited                                        |
-| Strip   | hold Ctrl+Alt  | recent files, imports and importers along the edge                          |
-| Find    | tap Ctrl+Alt   | Find anything browsing folders, with a preview                              |
-| Columns | tap Ctrl+Alt   | the path as columns, like a Finder window                                   |
-| Zoom    | tap Ctrl+Alt   | file, folder and project levels; the project as a treemap, spine or circles |
+| Style   | What you see                                                                |
+| ------- | --------------------------------------------------------------------------- |
+| Next to | neighbouring files around the current one                                   |
+| Trails  | a timeline of the places you visited                                        |
+| Strip   | recent files, imports and importers along the edge                          |
+| Find    | Find anything browsing folders, with a preview                              |
+| Columns | the path as columns, like a Finder window                                   |
+| Zoom    | file, folder and project levels; the project as a treemap, spine or circles |
 
 ![Trails: a timeline of five files, with tracker.ts selected two places back](.github/images/nav-trails.png)
 
-You can set a second style on **Ctrl+Tab**. Back and forward always work with
-**Alt+←/→** and the mouse side buttons.
+Every style opens and closes the same way. You can set a second style on **Ctrl+Tab**
+(**⌃Tab**). Back and forward always work with **Alt+←/→** and the mouse side buttons.
 
 ## Status
 
